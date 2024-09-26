@@ -1,0 +1,16 @@
+POST http://localhost:5283/api/tasks
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4ODZjMjU5ZC1jMmM2LTQ4ODEtOGM0NC0wNWY5OGEzM2M0MzkiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJVc2VyIiwianRpIjoiNGI5NTE0MTktMTUyMy00M2I4LWE3MTgtZjgzNDVjODEyNTQ3IiwiZXhwIjoxNzI3MzI4MzQ0LCJpc3MiOiJKd3RBdXRoQXBwIiwiYXVkIjoiSnd0QXV0aEFwcFVzZXIifQ.xulIydoIiEpNE9QINQ-z86hULu3chsc-IWlJVLcKQH0
+Content-Type: application/json
+
+{
+  "title": "Test",
+  "description": "Test",
+  "frequency": "Weekly"
+}
+
+
+###
+
+DELETE http://localhost:5283/api/tasks/3e5753a9-b67b-4454-93c5-9feb092b112b
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4ODZjMjU5ZC1jMmM2LTQ4ODEtOGM0NC0wNWY5OGEzM2M0MzkiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJVc2VyIiwianRpIjoiNGI5NTE0MTktMTUyMy00M2I4LWE3MTgtZjgzNDVjODEyNTQ3IiwiZXhwIjoxNzI3MzI4MzQ0LCJpc3MiOiJKd3RBdXRoQXBwIiwiYXVkIjoiSnd0QXV0aEFwcFVzZXIifQ.xulIydoIiEpNE9QINQ-z86hULu3chsc-IWlJVLcKQH0
+Content-Type: application/json

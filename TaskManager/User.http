@@ -1,0 +1,24 @@
+POST http://localhost:5283/api/auth/register
+Content-Type: application/json
+
+{
+  "email": "selim@selim",
+  "password": "test",
+  "role": "User"
+}
+
+###
+
+POST http://localhost:5283/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "selim@selim",
+  "password": "test"
+}
+
+###
+
+POST http://localhost:5283/api/auth/logout
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4ODZjMjU5ZC1jMmM2LTQ4ODEtOGM0NC0wNWY5OGEzM2M0MzkiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJVc2VyIiwianRpIjoiMmFkMDM5YWItYWViMy00Y2ZiLTliYzItMDQzMzczODEyZGZjIiwiZXhwIjoxNzI3MzI4MjIxLCJpc3MiOiJKd3RBdXRoQXBwIiwiYXVkIjoiSnd0QXV0aEFwcFVzZXIifQ.QNv74SRsS2n3BcLrDDUbVuEXeZhSztWJiTBB6pP20hM
+Content-Type: application/json
